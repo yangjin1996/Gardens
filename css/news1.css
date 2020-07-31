@@ -1,0 +1,84 @@
+.banners{
+	width:100%;
+	overflow: hidden;
+}
+.banners>ul{
+	width:200%;
+	display: flex;
+	padding: 0;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	padding-inline-start:0;
+}
+.banners>ul li{
+	width:50%;
+}
+.banners>ul li img{
+	width:100%;
+	height:300px;
+}
+.contain{
+	width:1200px;
+	margin:0 auto;
+}
+.contain h3{
+	font-size: 25px;
+	line-height: 100px;
+	color: #333;
+}
+.contain p{
+	font-size: 14px;
+	color:#676767;
+	line-height: 25px;
+	padding:30px 30px 30px 0;
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee;
+}
+.contain p a{
+	color: #0000ff;
+}
+.contain ul{
+	display: flex;
+	justify-content: space-between;
+	line-height: 40px;
+	margin-top:20px;
+	color:#676767;
+}
+.contain ul span{
+	margin-right:30px;
+}
+.contain ul li:nth-child(2) span{
+	margin-right:10px;
+}
+.contain ul a{
+	color:#676767;
+}
+.footIcon{
+	width:100%;
+	justify-content: flex-end;
+	margin-top:20px;
+	margin-bottom: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+.footIcon div{
+	display: flex;
+	align-items: center;
+}
+.footIcon div:nth-child(1) span{
+	margin-right:25px;
+}
+.footIcon span{
+	line-height: 40px;
+	vertical-align: middle;
+	align-items: center;
+	color:#676767;
+}
+.footIcon img{
+	width:33px;
+	height:33px;
+}
+.footIcon a{
+	margin:0 5px;
+	color:#676767;
+}

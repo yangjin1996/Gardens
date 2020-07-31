@@ -1,0 +1,86 @@
+.banners{
+	width:100%;
+	overflow: hidden;
+}
+.banners>ul{
+	width:200%;
+	display: flex;
+}
+.banners>ul li{
+	width:50%;
+}
+.banners>ul li img{
+	width:100%;
+}
+.up{
+	width:50px;
+	height:50px;
+	position: fixed;
+	bottom: 80px;
+	right:50px;
+}
+.up img{
+	width:100%;
+	height:100%;
+}
+.container{
+	width:100%;
+	padding-top:100px;
+	background-color: #fdfdfd;
+}
+.contain{
+	width:1200px;
+	margin: 0 auto;
+	padding-left:20px;
+	padding-right: 70px;
+}
+.container .head{
+	font-size: 25px;
+	color:#666;
+}
+.container .head>p{
+	font-size: 13px;
+	color:#aaa;
+	line-height: 30px;
+	margin:30px 0 40px 0;
+	padding-left:10px;
+}
+.container .head>h3{
+	padding-left:10px;
+}
+.container ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.container li{
+	width:356px;
+	height:370px;
+	border-radius: 5px;
+	overflow: hidden;
+	background-color: #fff;
+	box-shadow: 0 8px 8px #eee;
+	margin-bottom: 30px;
+}
+.container li img{
+	width:100%;
+	height:50%;
+}
+.container li h4{
+	margin:20px 0;
+	padding:0 10px;
+}
+.container li h4:hover a{
+	color: #00C905;
+}
+.container li h4 a{
+	color:#333;
+	font-weight: 100;
+}
+.container li p{
+	font-size: 14px;
+	color:#888;
+	line-height: 25px;
+	padding:0 10px;
+	margin-bottom: 10px;
+}

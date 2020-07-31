@@ -1,0 +1,109 @@
+.banners{
+	width:100%;
+	height:380px;
+	overflow: hidden;
+}
+.banners>ul{
+	width:200%;
+	height:380px;
+	display: flex;
+}
+.banners>ul li{
+	width:50%;
+	height:380px;
+}
+.banners>ul li img{
+	width:100%;
+	height:100%;
+}
+.adv{
+	width:1200px;
+	margin:0 auto;
+	margin-top:150px;
+	padding:0 50px;
+}
+.adv .head{
+	text-align: center;
+}
+h3{
+	text-align: center;
+	color:#000;
+	font-size: 30px;
+	font-weight: 550;
+}
+h3 span{
+	color:#4ab344;
+}
+.head p{
+	color:#666;
+	margin:15px 0 60px 0;
+}
+.adv .icon{
+	padding:0 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.adv .tec{
+	display: flex;
+	justify-content: space-between;
+}
+.adv .tec li{
+	width:290px;
+	text-align: center;
+	color: #666;
+	font-size: 25px;
+	font-weight: 100;
+}
+.adv .tec li h4{
+	margin-top:35px;
+	margin-bottom: 30px;
+}
+.adv .tec li p{
+	font-size: 16px;
+	line-height: 30px;
+	color: #888;
+}
+.up{
+	width:50px;
+	height:50px;
+	position: fixed;
+	bottom: 80px;
+	right:50px;
+}
+.up img{
+	width:100%;
+	height:100%;
+}
+.about{
+	width:100%;
+	margin-top:80px;
+	background-color: #eee;
+}
+.about>div{
+	margin:0 auto;
+	overflow: hidden;
+	text-align: center;
+}
+.about>div h3{
+	margin:70px 0 40px 0;
+}
+.about>div p{
+	line-height: 30px;
+	color: #888;
+}
+.about>div ul{
+	width:1200px;
+	margin: 0 auto;
+	margin-top:120px;
+	/* padding:0 350px; */
+	display: flex;
+	justify-content: space-between;
+}
+.about>div ul li{
+	width:380px;
+	height:280px;
+}
+.about>div ul li img{
+	width:100%;
+	height:100%;
+}

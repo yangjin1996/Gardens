@@ -1,0 +1,98 @@
+/* 轮播图 */
+.banner{
+	width:100%;
+	position:relative;
+}
+.banner img{
+	width:100%;
+}
+.banner .swich{
+	width:100%;
+	display:flex;
+	justify-content:space-between;
+	position:absolute;
+	left:50%;
+	right:50%;
+	margin:auto;
+	top:50%;
+	transform:translateY(-50%) translateX(-50%);
+}
+.swich-L{
+	margin-left:5%;
+}
+.swich-R{
+	margin-right:5%;
+}
+.banner .swich>div{
+	width:70px;
+	height:70px;
+	border-radius:5px;
+	background-color:rgba(70,70,70,0.5);
+	line-height:70px;
+	text-align:center;
+	color:#fff;
+	font-size:0;
+}
+.swich>div:hover{
+	background-color: rgba(60,60,60,0.5);
+}
+.swich span{
+	font-size:40px;
+}
+.up{
+	width:50px;
+	height:50px;
+	position: fixed;
+	bottom: 80px;
+	right:50px;
+}
+.up img{
+	width:100%;
+	height:100%;
+}
+.contain{
+	width:980px;
+	margin:0 auto;
+}
+.contain>div{
+	border-bottom: 1px solid #ddd;
+}
+.contain p{
+	text-align: center;
+	line-height: 50px;
+	border-bottom:1px solid #00C905;
+	color: #00C905;
+	width:60px;
+}
+.contain li{
+	height:50px;
+	font-size: 14px;
+	padding-top:10px;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px dashed #ccc;
+}
+.contain li a{
+	color:#333;
+}
+.contain li a:hover{
+	color:#00C905;
+}
+.contain li span a{
+	margin-right:20px;
+}
+.page{
+	width:160px;
+	margin: 0 auto;
+	line-height: 80px;
+	display: flex;
+	justify-content: space-between;
+}
+.page a{
+	color:#333;
+	font-size: 14px;
+}
+.page span{
+	color:#00C905;
+	font-size: 14px;
+}

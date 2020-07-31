@@ -1,0 +1,28 @@
+.end{
+	width: 100%;
+	height:150px;
+	background-color: #444;
+	border-top:2px solid #00C905;
+}
+.end ul{
+	width: 1200px;
+	height:150px;
+	padding:0 40px;
+	margin:0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.end li{
+	text-align: center;
+}
+.end li p{
+	color:#fff;
+	margin-top:30px;
+}
+.stripe{
+	width:100%;
+}
+.stripe img{
+	width:100%;
+}
